@@ -1,0 +1,679 @@
+Dependencies for Project 'K60F', Target '64f': (DO NOT MODIFY !)
+F (.\drives\startup\startup_MK64F12.s)(0x5409118E)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "MK64FX512xxx12 SETA 1"--list .\listings\startup_mk64f12.lst --xref -o .\objects\startup_mk64f12.o --depend .\objects\startup_mk64f12.d)
+F (.\drives\startup\system_MK64F12.c)(0x57C65692)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\system_mk64f12.o --omf_browse .\objects\system_mk64f12.crf --depend .\objects\system_mk64f12.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+F (.\drives\app\main.c)(0x57CA2977)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\isr.c)(0x57C92C9A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (drives\app\isr.h)(0x57885686)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\DATA_SEND_PC.C)(0x57CA1BEF)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\data_send_pc.o --omf_browse .\objects\data_send_pc.crf --depend .\objects\data_send_pc.d)
+I (drives\app\DATA_SEND_PC.H)(0x57C9358D)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\RC.C)(0x57C93356)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\rc.o --omf_browse .\objects\rc.crf --depend .\objects\rc.d)
+I (drives\app\RC.H)(0x578597F6)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\drives\gpio\K6x_gpio.c)(0x57805604)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_gpio.o --omf_browse .\objects\k6x_gpio.crf --depend .\objects\k6x_gpio.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+F (.\drives\drives\adc\K6x_adc.c)(0x577F5A46)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_adc.o --omf_browse .\objects\k6x_adc.crf --depend .\objects\k6x_adc.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\adc\K6x_adc.h)(0x577F5A46)
+F (.\drives\drives\delay\K6x_delay.c)(0x577F5C08)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_delay.o --omf_browse .\objects\k6x_delay.crf --depend .\objects\k6x_delay.d)
+I (drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+F (.\drives\drives\dma\K6x_dma.c)(0x5781C4FE)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_dma.o --omf_browse .\objects\k6x_dma.crf --depend .\objects\k6x_dma.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (drives\drives\dma\K6x_dma.h)(0x57885D26)
+F (.\drives\drives\Flash\K6x_flash.c)(0x577F5E50)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_flash.o --omf_browse .\objects\k6x_flash.crf --depend .\objects\k6x_flash.d)
+I (drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+F (.\drives\drives\i2c\K6x_i2c.c)(0x57AC35B2)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_i2c.o --omf_browse .\objects\k6x_i2c.crf --depend .\objects\k6x_i2c.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\i2c\K6X_i2c.h)(0x57C9299D)
+F (.\drives\drives\spi\K6x_spi.c)(0x57ABDD96)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_spi.o --omf_browse .\objects\k6x_spi.crf --depend .\objects\k6x_spi.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\spi\K6x_spi.h)(0x57AACD22)
+F (.\drives\drives\lptmr\K6x_lptmr.c)(0x577F6224)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_lptmr.o --omf_browse .\objects\k6x_lptmr.crf --depend .\objects\k6x_lptmr.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+F (.\drives\drives\uart\K6x_uart.c)(0x578C870E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_uart.o --omf_browse .\objects\k6x_uart.crf --depend .\objects\k6x_uart.d)
+I (drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+F (.\drives\drives\CAN\K6x_can.c)(0x577F6594)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_can.o --omf_browse .\objects\k6x_can.crf --depend .\objects\k6x_can.d)
+I (drives\drives\CAN\k6x_can.h)(0x577F63AE)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+F (.\drives\drives\PIT\K6x_PIT.c)(0x577F3FA0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_pit.o --omf_browse .\objects\k6x_pit.crf --depend .\objects\k6x_pit.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+F (.\drives\drives\FTM\K6x_FTM.c)(0x57B51AA8)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\k6x_ftm.o --omf_browse .\objects\k6x_ftm.crf --depend .\objects\k6x_ftm.d)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (drives\drives\FTM\K6x_FTM.h)(0x57859284)
+F (.\drives\include\include.h)(0x57C92E6C)()
+F (.\drives\include\common.h)(0x57C92EC2)()
+F (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)()
+F (.\drives\drives\gpio\port.h)(0x577F5A7C)()
+F (.\drives\startup\system_MK64F125.h)(0x57C6553C)()
+F (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)()
+F (.\drives\landzo_drives\KEY.c)(0x57805540)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\landzo_drives\landzo_app.c)(0x57C67F54)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\landzo_app.o --omf_browse .\objects\landzo_app.crf --depend .\objects\landzo_app.d)
+I (drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\landzo_drives\landzo_fxos8700.C)(0x57C92C5D)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\landzo_fxos8700.o --omf_browse .\objects\landzo_fxos8700.crf --depend .\objects\landzo_fxos8700.d)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\landzo_drives\landzo_MPL3115A2.C)(0x57C92B3B)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\landzo_mpl3115a2.o --omf_browse .\objects\landzo_mpl3115a2.crf --depend .\objects\landzo_mpl3115a2.d)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\landzo_drives\landzo_FXAS21002.C)(0x57C92AD4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\landzo_fxas21002.o --omf_browse .\objects\landzo_fxas21002.crf --depend .\objects\landzo_fxas21002.d)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\control_Landzo\control_L.c)(0x57CA22E0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\control_l.o --omf_browse .\objects\control_l.crf --depend .\objects\control_l.d)
+I (drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)()
+F (.\drives\app\Att_Q\Att_Q.c)(0x57C94611)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\drives -I .\drives\include -I .\drives\app -I .\drives\startup -I .\drives\drives -I .\drives\drives\gpio -I .\drives\drives\PIT -I .\drives\drives\adc -I .\drives\drives\delay -I .\drives\drives\Flash -I .\drives\drives\FTM -I .\drives\drives\i2c -I .\drives\drives\lptmr -I .\drives\drives\spi -I .\drives\drives\uart -I .\drives\drives\dma -I .\drives\drives\CAN -I .\drives\landzo_drives -I .\drives\app\control -I .\drives\app\Att_Q -I .\drives\app\control_Landzo-I C:\Users\LeoQ\Desktop\NXP_Landzo_fourRotor\FourRotor_NXP_V1.1Hardware\RTE-I d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DMK64FX512xxx12 -DMK64F12 -DCC_ARM-o .\objects\att_q.o --omf_browse .\objects\att_q.crf --depend .\objects\att_q.d)
+I (drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\include\include.h)(0x57C92E6C)
+I (.\drives\include\common.h)(0x57C92EC2)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\drives\startup\core_cm4.h)(0x578745E8)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x55AEF4C0)
+I (D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x55AEF4C0)
+I (d:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include\system_MK64F12.h)(0x54040B10)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+I (D:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (.\drives\startup\system_MK64F125.h)(0x57C6553C)
+I (.\drives\drives\gpio\gpio_cfg.h)(0x577F5DEA)
+I (.\drives\drives\gpio\port.h)(0x577F5A7C)
+I (.\drives\drives\gpio\pin_cfg.h)(0x57B52E2C)
+I (.\drives\drives\gpio\K6x_gpio.h)(0x5780515E)
+I (.\drives\app\isr.h)(0x57885686)
+I (.\drives\drives\delay\K6x_delay.h)(0x577F5B72)
+I (.\drives\drives\adc\K6x_adc.h)(0x577F5A46)
+I (.\drives\drives\CAN\K6x_can.h)(0x577F63AE)
+I (.\drives\drives\dma\K6x_dma.h)(0x57885D26)
+I (.\drives\drives\Flash\K6x_flash.h)(0x5574E1C0)
+I (.\drives\drives\FTM\K6x_FTM.h)(0x57859284)
+I (.\drives\drives\i2c\K6x_i2c.h)(0x57C9299D)
+I (.\drives\drives\lptmr\K6x_lptmr.h)(0x5574E1C0)
+I (.\drives\drives\PIT\K6x_PIT.h)(0x57BAA2FA)
+I (.\drives\drives\spi\K6x_spi.h)(0x57AACD22)
+I (.\drives\drives\uart\K6x_uart.h)(0x578222B6)
+I (.\drives\landzo_drives\KEY.h)(0x57804334)
+I (.\drives\landzo_drives\landzo_app.h)(0x5784BBF0)
+I (.\drives\landzo_drives\landzo_MPL3115A2.h)(0x57A9A906)
+I (.\drives\landzo_drives\landzo_FXAS21002.h)(0x57C4FA86)
+I (.\drives\landzo_drives\landzo_fxos8700.h)(0x57C4FA86)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\drives\app\DATA_SEND_PC.h)(0x57C9358D)
+I (.\drives\app\RC.H)(0x578597F6)
+I (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)
+I (.\drives\app\control_Landzo\control_L.h)(0x57BFACEE)
+F (.\drives\app\Att_Q\Att_Q.h)(0x57BE3E54)()
